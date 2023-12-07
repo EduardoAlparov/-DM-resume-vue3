@@ -1,0 +1,35 @@
+/* RESET, NORMALIZE STYLES: */
+@import url("./reset.css");
+
+/* FONTS LOAD SECTION: */
+/* Quicksand */
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&family=Ubuntu+Condensed&display=swap");
+@import url("./fonts.css");
+
+/* BEM BLOCKS: */
+@import url("./bem-blocks/w-slider.css");
+
+/* UI STYLES: */
+@import url("./ui/_name.css");
+@import url("./ui/commons.css");
+
+/* USER VARIABLES SECTION: */
+:root {
+  --accent: #63637e;
+  --orange: #e63327;
+  --text: #fefefe;
+
+  --grad-color-1: 97, 0, 23;
+  --grad-color-2: 179, 0, 42;
+  --grad-color-3: 255, 0, 59;
+  --grad-color-4: 208, 208, 214;
+  --grad-color-5: 58, 51, 60;
+
+  --white: #fff;
+  --grey: #e6e7e8;
+  --bg-color: #101015;
+  --userfont: "Russo One", sans-serif;
+  --secondfont: "DroidSans", sans-serif;
+  --systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --font-body: 400 1.6rem/1.33 var(--userfont);
+}

@@ -1,0 +1,34 @@
+._name-parent {
+    position: relative;
+}
+
+._name-text {
+    position: absolute;
+    top: -16px;
+    left: 0;
+
+    font-family: 'Russo One', sans-serif;
+    color: var(--orange);
+    font-size: 10px;
+    text-transform: lowercase;
+
+    opacity: 0;
+}
+
+._name-text_right {
+    left: unset;
+    right: 0;
+}
+
+._name-text_center {
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* md <= Large (lg) */
+@media (max-width : 991px) {
+    ._name-text {
+        font-size: 8px;
+    }
+}
