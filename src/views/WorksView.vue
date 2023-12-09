@@ -8,7 +8,7 @@
             :mousewheel="true"
             :keyboard="keyboardEnabled"
             :modules="modules"
-            :speed="1000"
+            :speed="speed"
             :autoplay="(autoplayIsEnabled) ? autoplayOptions : autoplayOptionsDisabled"
             @swiper="onSwiper"
             @slideChange="onSlideChange"
@@ -56,10 +56,14 @@ import { ref, defineEmits, defineProps } from "vue";
 import { onBeforeRouteUpdate } from "vue-router";
 import { inject } from "vue";
 
-defineProps({
+const props = defineProps({
   autoplayIsEnabled: {
     type: Boolean,
     required: true,
+  },
+  speed: {
+    type: Number,
+    default: 400,
   },
 });
 

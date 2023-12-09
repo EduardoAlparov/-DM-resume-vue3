@@ -73,6 +73,10 @@ defineProps({
     type: Boolean,
     required: false,
   },
+  speed: {
+    type: Number,
+    default: 0,
+  },
 });
 
 const emit = defineEmits(["componentUpdate"]);

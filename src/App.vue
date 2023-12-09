@@ -7,6 +7,7 @@ import { ref, onMounted, watch } from "vue";
 import { useRouter } from "vue-router";
 import { inject } from "vue";
 
+const speed = ref(400);
 const emitter = inject("emitter");
 const autoplayIsEnabled = ref(true);
 const autoPlayStopped = ref(false);
@@ -40,6 +41,10 @@ watch(autoPlayStopped, (newVal) => {
     isLoaderIsVisible.value = false;
   }
 });
+
+watch(autoplayIsEnabled, () => {
+  speed.value = 1000;
+});
 </script>
 
 <template lang="pug">
@@ -59,6 +64,7 @@ watch(autoPlayStopped, (newVal) => {
     )
 
     router-view(
+        :speed="speed"
         @componentUpdate="componentUpdate"
         :autoplayIsEnabled="autoplayIsEnabled"
     )
@@ -168,7 +174,7 @@ body {
 
   &__main-heading {
     display: flex;
-    width: min-content;
+    max-width: 12ch;
     color: var(--text);
     font-size: 6rem;
     font-weight: 600;
@@ -242,6 +248,7 @@ body {
     margin: 8rem 0 4rem;
     flex-shrink: 0;
     flex-basis: 41.67%;
+    pointer-events: none;
 
     @include breakpoint(small-desktop) {
       flex-basis: 60%;

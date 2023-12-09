@@ -1,109 +1,90 @@
 [
-    {
-        "id": 0,
-        "name": "автострада",
-        "desc": "Лендинг для дилера газовозов",
-        "about": "",
-        "href": "https://eduardoalparov.github.io/avtostrada/",
-        "link": "avtostrada.ru",
-        "imageSmall": "highway-small.jpg",
-        "imageBig": "highway.jpg",
-        "skills": [
-            "HTML, CSS",
-            "JavaScript"
-        ]
-    },
-    {
-        "id": 1,
-        "name": "optimus",
-        "desc": "Лендинг для магазина мебели",
-        "about": "",
-        "href": "https://optimusbed.ru/",
-        "link": "optimusbed.ru",
-        "imageSmall": "optimus-small.jpg",
-        "imageBig": "optimus.jpg",
-        "skills": [
-            "HTML, CSS",
-            "JavaScript, jQuery"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "prizmaxis",
-        "desc": "Корпоративный сайт для промышленных художников",
-        "about": "",
-        "href": "http://www.prizmaxx.ru/",
-        "link": "prizmaxx.ru",
-        "imageSmall": "prizmaxis-small.jpg",
-        "imageBig": "prizmaxis.jpg",
-        "skills": [
-            "HTML, CSS",
-            "JavaScript, jQuery"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "pevek",
-        "desc": "Лендинг для порта Певек",
-        "about": "",
-        "href": "https://morport.markweber.ru/",
-        "link": "morport.markweber.ru",
-        "imageSmall": "pevek-small.jpg",
-        "imageBig": "pevek.jpg",
-        "skills": [
-            "PUG, SCSS", "JavaScript"
-        ]
-    },
-    {
-        "id": 5,
-        "name": "PVP-Logistics",
-        "desc": "Сайт для компании грузоперевозок PVP-Logistics",
-        "about": "",
-        "href": "https://pvp-logistics.ru/",
-        "link": "pvp-logistics.ru",
-        "imageSmall": "pvp-small.jpg",
-        "imageBig": "pvp.jpg",
-        "skills": [
-            "HTML, CSS", "JavaScript"
-        ]
-    },
-    {
-        "id": 6,
-        "name": "СпецТехника",
-        "desc": "Сайт для компании OOO 'СпецТехника'",
-        "about": "",
-        "href": "http://spectechnika.markweber.ru/",
-        "link": "spectechnika.ru/",
-        "imageSmall": "spectechnika-small.jpg",
-        "imageBig": "spectechnika.jpg",
-        "skills": [
-            "PUG, SCSS", "JavaScript"
-        ]
-    },
-    {
-        "id": 7,
-        "name": "ПРОФСНАБ",
-        "desc": "Сайт для компании 'ПРОФСНАБ'",
-        "about": "",
-        "href": "https://eduardoalparov.github.io/PROFSNAB/",
-        "link": "profsnab.ru/",
-        "imageSmall": "profsnab-small.jpg",
-        "imageBig": "profsnab.jpg",
-        "skills": [
-            "HTML, CSS", "JavaScript"
-        ]
-    },
-    {
-        "id": 8,
-        "name": "Checking Carriers",
-        "desc": "Сайт юридической проверки авто Checking Carriers",
-        "about": "",
-        "href": "https://eduardoalparov.github.io/CheckingCarrier",
-        "link": "CheckingCarrier.ru/",
-        "imageSmall": "checking-small.jpg",
-        "imageBig": "checking.jpg",
-        "skills": [
-            "HTML, CSS", "JavaScript"
-        ]
-    }
+  {
+    "id": 4,
+    "name": "Певек",
+    "desc": "Лендинг порта Певек",
+    "about": "",
+    "href": "https://morport-pevek.ru/",
+    "link": "morport-pevek.ru",
+    "imageSmall": "pevek-small.jpg",
+    "imageBig": "pevek.jpg",
+    "skills": ["PUG, SCSS", "JavaScript"]
+  },
+  {
+    "id": 8,
+    "name": "retrova",
+    "desc": "Интернет-магазин бренда",
+    "about": "",
+    "href": "https://eduardoalparov.github.io/accent-Retrova/index.html",
+    "link": "retrova.io",
+    "imageSmall": "retrova-small.jpg",
+    "imageBig": "retrova.jpg",
+    "skills": ["HTML, CSS", "JavaScript"]
+  },
+  {
+    "id": 8,
+    "name": "Checking Carriers",
+    "desc": "Сайт юридической проверки авто",
+    "about": "",
+    "href": "https://info.checking-carriers.ru/",
+    "link": "info.checking-carriers.ru",
+    "imageSmall": "checking-small.jpg",
+    "imageBig": "checking.jpg",
+    "skills": ["HTML, CSS", "JavaScript"]
+  },
+  {
+    "id": 1,
+    "name": "Ангар-Строй",
+    "desc": "Лендинг производства ангаров",
+    "about": "",
+    "href": "https://eduardoalparov.github.io/accent-Hangar",
+    "link": "accent-hangar.io",
+    "imageSmall": "hangar-small.jpg",
+    "imageBig": "hangar.jpg",
+    "skills": ["HTML, CSS", "JavaScript, jQuery"]
+  },
+  {
+    "id": 1,
+    "name": "Neon-art",
+    "desc": "Корпоративный сайт рекламного агентства",
+    "about": "",
+    "href": "https://www.neonart.ru/lp/jobs/",
+    "link": "www.neonart.ru",
+    "imageSmall": "neonart-small.jpg",
+    "imageBig": "neonart.jpg",
+    "skills": ["HTML, CSS", "JavaScript, jQuery"]
+  },
+  {
+    "id": 7,
+    "name": "ПРОФСНАБ",
+    "desc": "Сайт для компании 'ПРОФСНАБ'",
+    "about": "",
+    "href": "https://pk-profsnab.ru/",
+    "link": "pk-profsnab.ru",
+    "imageSmall": "profsnab-small.jpg",
+    "imageBig": "profsnab.jpg",
+    "skills": ["HTML, CSS", "JavaScript"]
+  },
+  {
+    "id": 1,
+    "name": "optimus",
+    "desc": "Лендинг для магазина мебели",
+    "about": "",
+    "href": "https://optimusbed.ru/",
+    "link": "optimusbed.ru",
+    "imageSmall": "optimus-small.jpg",
+    "imageBig": "optimus.jpg",
+    "skills": ["HTML, CSS", "JavaScript, jQuery"]
+  },
+  {
+    "id": 6,
+    "name": "СпецТехника",
+    "desc": "Сайт для компании OOO 'СпецТехника'",
+    "about": "",
+    "href": "https://eduardoalparov.github.io/spectechnika/",
+    "link": "spectechnika.io",
+    "imageSmall": "spectechnika-small.jpg",
+    "imageBig": "spectechnika.jpg",
+    "skills": ["PUG, SCSS", "JavaScript"]
+  }
 ]
